@@ -47,7 +47,9 @@ class DistanceBwPoint {
 		double length2 = Math.sqrt(Math.pow(x4 - x3, 2) + Math.pow(y4 - y3, 2));
 		if (length1 == length2)
 			System.out.println(length1 + " and " + length2 + " are equal");
+		else if (length1 > length2)
+			System.out.println(length1 + " Length1 is the Greater");
 		else
-			System.out.println(length1 + " and " + length2 + " are not equal");
+			System.out.println(length2 + " Length2 is the Greater");
 	}
 }
