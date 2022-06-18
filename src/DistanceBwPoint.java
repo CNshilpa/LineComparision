@@ -30,8 +30,7 @@ class DistanceBwPoint {
 
 		dis = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
 		System.out.println("Welcome to Line\r\n" + "Comparison Computation\r\n" + "Program on Master Branch");
-		System.out
-				.println("Length of a line between" + "(" + x1 + "," + y1 + ")," + "(" + x2 + "," + y2 + ")===>" + dis);
+		System.out.println("Length of a line between" + "(" + x1 + "," + y1 + ")," + "(" + x2 + "," + y2 + ")===>" + dis);
 
 	}
 }
